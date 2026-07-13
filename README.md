@@ -1,24 +1,133 @@
 
-#  B2B SaaS Customer Churn Analysis
+# 📉 B2B SaaS Customer Churn Analysis
 
-##  O Problema de Negócio
-Uma empresa B2B do setor das telecomunicações/SaaS está a enfrentar um problema grave de retenção de clientes, o objetivo deste projeto é analisar uma base de dados de +7.000 clientes, identificar os segmentos de maior risco e quantificar o impacto financeiro do abandono (Churn).
+##  Project Overview
 
-## Ferramentas Utilizadas
-* **Python (Pandas, NumPy):** Limpeza de dados, feature engineering (criação de Tiers Financeiros e métricas comportamentais) e análise exploratória cruzada.
-* **Power BI:** Criação de Dashboard interativo para apresentação à Administração *(Em desenvolvimento)*.
+Este projeto foi desenvolvido com o objetivo de analisar o abandono de clientes (*Customer Churn*) numa empresa B2B do setor das telecomunicações/SaaS.
 
-## Principais Descobertas (Insights Estratégicos)
-Após a análise exploratória e cruzamento de variáveis, detetámos cenários críticos:
-
-1. **Alerta Vermelho de Retenção:** A taxa de Churn global da empresa encontra-se nos **26.5%**.
-2. **Impacto Financeiro:** Os clientes que abandonaram o serviço representam uma perda de receita mensal (MRR) de **139.130,85 €** (mais de 1.6 Milhões de euros anualizados).
-3. **Churn de Receita vs Churn de Clientes:** O segmento que mais cancela o serviço é precisamente o **Enterprise (33%)**, que suporta o ARPU da empresa. O segmento Starter é o mais leal (11% de churn).
-4. **O Cenário de Pesadelo:** O risco de abandono dispara para os **50.3%** quando um cliente tem um contrato sem fidelização (Month-to-month) e **não possui** serviço de Apoio Técnico (Tech Support). Em contrapartida, clientes com Apoio Técnico reduzem o risco de saída para apenas 15.2%.
-
-## Recomendações Preliminares
-* Reestruturação imediata da estratégia de *Customer Success* para a conta Enterprise.
-* Criação de campanhas para oferecer/incluir o *Tech Support* nos primeiros meses de contrato, dada a sua correlação direta com o aumento drástico da taxa de retenção.
+Através de uma análise exploratória de dados (EDA), foram identificados os principais fatores associados ao churn, quantificado o impacto financeiro da perda de clientes e propostas recomendações para melhorar a retenção.
 
 ---
-*Ficheiro de código e dataset limpo disponíveis neste repositório para consulta.*
+
+#  Business Questions
+
+O projeto procurou responder às seguintes questões:
+
+- Qual é a taxa global de churn da empresa?
+- Qual o impacto financeiro do abandono de clientes?
+- Que segmentos apresentam maior risco de cancelamento?
+- Que serviços estão associados a uma maior retenção?
+- Quais as oportunidades para reduzir o churn?
+
+---
+
+#  Ferramentas Utilizadas
+
+- Python
+- Pandas
+- NumPy
+- Power BI
+- Jupyter Notebook
+
+---
+
+#  Processo de Análise
+
+### Preparação dos Dados
+
+- Limpeza e validação dos dados
+- Tratamento de valores inconsistentes
+- Criação de novas variáveis (Feature Engineering)
+- Segmentação de clientes por nível de faturação
+
+### Análise Exploratória
+
+Foram analisadas diversas variáveis para identificar padrões de abandono:
+
+- Tipo de contrato
+- Serviços contratados
+- Apoio Técnico
+- Tempo de permanência
+- Receita mensal
+- Segmentação de clientes
+
+### Dashboard
+
+Os resultados foram apresentados através de um dashboard interativo em Power BI para facilitar a análise dos principais indicadores de negócio.
+
+---
+
+#  Principais Descobertas
+
+##  Taxa Global de Churn
+
+A empresa apresenta uma taxa global de abandono de **26,5%**, indicando uma oportunidade significativa para melhorar a retenção de clientes.
+
+---
+
+##  Impacto Financeiro
+
+Os clientes que abandonaram o serviço representam uma perda estimada de **139.130,85 € de receita recorrente mensal (MRR)**, equivalente a mais de **1,6 milhões de euros por ano**.
+
+---
+
+##  Segmentos de Maior Risco
+
+O segmento **Enterprise** apresenta a maior taxa de abandono (**33%**), comprometendo uma parte significativa da receita da empresa.
+
+Por outro lado, o segmento **Starter** demonstrou uma taxa de churn bastante inferior (**11%**).
+
+---
+
+##  O impacto do Apoio Técnico
+
+Os clientes com contratos mensais (*Month-to-Month*) e sem serviço de **Tech Support** apresentam uma taxa de churn superior a **50%**.
+
+Quando existe Apoio Técnico, essa taxa reduz-se para aproximadamente **15%**, evidenciando a importância deste serviço na retenção de clientes.
+
+---
+
+#  Recomendações
+
+Com base na análise realizada, foram propostas as seguintes ações:
+
+- Reforçar estratégias de retenção para clientes Enterprise.
+- Promover a adesão ao serviço de Tech Support nos primeiros meses de contrato.
+- Desenvolver campanhas direcionadas para clientes com contratos Month-to-Month.
+- Monitorizar regularmente os indicadores de churn através de dashboards.
+
+---
+
+# Competências Demonstradas
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Customer Analytics
+- Churn Analysis
+- Financial Analysis
+- Business Intelligence
+- Python
+- Pandas
+- NumPy
+- Power BI
+
+---
+
+# 📂 Estrutura do Repositório
+
+```text
+📁 data/
+    customer_churn.csv
+
+📁 notebooks/
+    Churn_Analysis.ipynb
+
+📁 powerbi/
+    Churn_Dashboard.pbix
+
+📁 images/
+    dashboard.png
+
+📄 README.md
+```
