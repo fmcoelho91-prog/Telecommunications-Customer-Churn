@@ -76,7 +76,7 @@ Análise dos segmentos com maior risco de abandono através do cruzamento de con
 
 Quantificação do impacto financeiro do churn e apresentação de recomendações estratégicas orientadas para a retenção de clientes.
 
-![Financial Impact](https://github.com/fmcoelho91-prog/B2B-SaaS-Churn-Analysis/blob/main/Dashboard%203.png)
+![Financial Impact](https://github.com/fmcoelho91-prog/B2B-SaaS-Churn-Analysis/blob/main/Dasboard%203.png)
 
 ---
 
