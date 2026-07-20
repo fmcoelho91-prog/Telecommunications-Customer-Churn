@@ -122,7 +122,7 @@ Visão executiva dos principais indicadores de negócio, incluindo:
 * Impacto anualizado estimado.
 * Distribuição dos clientes por situação.
 
-![Executive Overview](Dashboard%201.png)
+![Executive Overview](https://github.com/fmcoelho91-prog/Telecommunications-Customer-Churn/blob/main/Dashboard%201.png)
 
 ---
 
@@ -136,7 +136,7 @@ Análise dos grupos com maior risco de abandono através do cruzamento de:
 * Tempo de permanência.
 * Segmento de valor.
 
-![Customer Segmentation](Dashboard%202.png)
+![Customer Segmentation](https://github.com/fmcoelho91-prog/Telecommunications-Customer-Churn/blob/main/Dashboard%202.png)
 
 ---
 
@@ -144,7 +144,7 @@ Análise dos grupos com maior risco de abandono através do cruzamento de:
 
 Quantificação do impacto financeiro do churn e apresentação de recomendações estratégicas orientadas para a retenção de clientes e proteção da receita.
 
-![Financial Impact and Recommendations](Dashboard%203.png)
+![Financial Impact and Recommendations](https://github.com/fmcoelho91-prog/Telecommunications-Customer-Churn/blob/main/Dashboard%203.png)
 
 ---
 
