@@ -396,3 +396,4 @@ Os resultados demonstram que o churn está particularmente associado a contratos
 
 A análise permitiu identificar grupos prioritários para ações de retenção, quantificar o impacto financeiro do churn e preparar uma base de dados limpa e enriquecida para utilização num dashboard interativo em Power BI.
 
+Embora os resultados não permitam estabelecer relações diretas de causa e efeito, fornecem uma base sólida para apoiar decisões de negócio e para o futuro desenvolvimento de modelos preditivos de churn.
